@@ -1,0 +1,24 @@
+{
+    "name": "ethereal-php/heroku-jawsdb",
+    "description": "",
+    "homepage": "https://github.com/ethereal-php/heroku-jawsdb",
+    "authors": [{
+        "name": "Ethereal",
+        "email": "ethereal97@gmail.com",
+        "homepage": "https://etherio.github.io"
+    }],
+    "require": {
+        "php": "^7.2.1"
+    },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "^177.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ethereal\\": "src/Ethereal/"
+        },
+        "files": [
+            "src/Ethereal/Support/helper.php"
+        ]
+    }
+}
